@@ -6,6 +6,7 @@ en:
       ruby_on_rails_tutorial: Ruby on Rails Tutorial sample application
       sample_app: Sample App
       tutorial: This is the home page for the
+      sign_up_now: sign up now!
     help:
       en: English
       vi: Vietnamese
@@ -30,3 +31,21 @@ en:
       sample_application_for_the_tutorial: This is the sample application for the tutorial
       and: and
       is_a: is a
+  layouts:
+    application:
+      sample: Sample App
+      help: Help
+      home: Home
+      login: Login
+    header:
+      home: Home
+      help: Help
+      log_in: Login
+      sample: Sample App
+    footer:
+      by: by
+      the_ruby_on_rails_tutorial: The Ruby on Rails Tutorial
+      michael_hart: Michael Hartl
+      about: About
+      contact: Contact
+      new: News

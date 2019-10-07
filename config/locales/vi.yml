@@ -6,6 +6,7 @@ vi:
       ruby_on_rails_tutorial: Ứng dụng mẫu Ruby on Rails Tutorial
       sample_app: Ứng dụng mới
       tutorial: Đây là trang chủ của
+      sign_up_now: Đăng nhập ngay !
     help:
       en: Tiếng Anh
       vi: Tiếng Việt
@@ -30,3 +31,23 @@ vi:
       sample_application_for_the_tutorial: đây là ứng dụng mẫu cho hướng dẫn
       and: và
       is_a: là một
+  layouts:
+    application:
+      sample: Ứng dụng
+      help: Trợ giúp
+      home: Trang chủ
+      login: Đăng nhập
+    header:
+      home: Trang chủ
+      help: Trợ giúp
+      log_in: Đăng nhập
+      sample: Ứng dụng
+    footer:
+      the:
+      by: bởi
+      the_ruby_on_rails_tutorial: Hướng dẫn về Ruby on Rails
+      michael_hart: Michael Hartl
+      about: Thông tin
+      contact: Liên hệ
+      new: Tin tức
+
