@@ -1,7 +1,12 @@
 <% provide :title, t(".sample_app") %>
-<%= link_to t(".en"), locale: "en" %>
-<%= link_to t(".vi"), locale: "vi" %>
-<h1><%= t(".sample_app") %></h1>
-<p>
-  <%= t(".tutorial") %> <%= link_to t(".ruby_on_rails_tutorial"), Settings.home %>
-</p>
+<%= link_to t(".en"), locale: Settings.en %>
+<%= link_to t(".vi"), locale: Settings.vi %>
+<div class="center jumbotron">
+  <h1><%= t(".sample_app") %></h1>
+  <h2> <%= t(".tutorial") %> <%= link_to t(".ruby_on_rails_tutorial"), Settings.home %></h2>
+  <h2><%= link_to t(".sign_up_now"), "#", class: "btn btn-lg btn-primary" %></h2>
+</div>
+<h2>
+  <%= link_to image_tag("rails.png", alt: "Rails logo"), Settings.ruby %>
+  <%= link_to image_tag("kitten.jpg", alt: "Rails logo"), Settings.cat %>
+</h2>

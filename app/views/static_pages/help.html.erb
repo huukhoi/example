@@ -1,6 +1,6 @@
 <% provide :title, t(".help") %>
-<%= link_to t(".en"), locale: "en" %>
-<%= link_to t(".vi"), locale: "vi" %>
+<%= link_to t(".en"), locale: Settings.en %>
+<%= link_to t(".vi"), locale: Settings.vi %>
 <h1><%= t(".help") %></h1>
 <p>
   <%= t(".page_help") %> <%= link_to t(".rails_tutorial_help"), Settings.help %>
