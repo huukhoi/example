@@ -1,0 +1,32 @@
+vi:
+  static_pages:
+    home:
+      en: Tiếng Anh
+      vi: Tiếng Việt
+      ruby_on_rails_tutorial: Ứng dụng mẫu Ruby on Rails Tutorial
+      sample_app: Ứng dụng mới
+      tutorial: Đây là trang chủ của
+    help:
+      en: Tiếng Anh
+      vi: Tiếng Việt
+      help: Trợ giúp
+      rails_tutorial_help: Trang trợ giúp của Rails Tutorial
+      ruby_on_rails: Sách hướng dẫn về Ruby on Rails
+      page_help: Nhận trợ giúp trên Ruby on Rails tại
+      app_help: Nhận trợ giúp về ứng dụng này, hãy xem
+    contact:
+      en: Tiếng Anh
+      vi: Tiếng Việt
+      contact_page: Trang liên lạc
+      contact: Liên hệ
+      contact_ruby_on_rails: Liên hệ với Ruby on Rails về ứng dụng mẫu tại
+    about:
+      about: Thông tin
+      en: Tiếng Anh
+      vi: Tiếng Việt
+      ruby_on_rails_tutorial: Hướng dẫn về Ruby on Rails
+      book: Sách
+      web_development: để dạy phát triển web với
+      sample_application_for_the_tutorial: đây là ứng dụng mẫu cho hướng dẫn
+      and: và
+      is_a: là một

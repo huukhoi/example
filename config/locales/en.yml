@@ -1,0 +1,32 @@
+en:
+  static_pages:
+    home:
+      en: English
+      vi: Vietnamese
+      ruby_on_rails_tutorial: Ruby on Rails Tutorial sample application
+      sample_app: Sample App
+      tutorial: This is the home page for the
+    help:
+      en: English
+      vi: Vietnamese
+      help: Help
+      rails_tutorial_help: Rails Tutorial help page
+      ruby_on_rails: Ruby on Rails Tutorial book
+      page_help: Get help on the Ruby on Rails Tutorial at the
+      app_help: To get help on this sample app, see the
+    contact:
+      en: English
+      vi: Vietnamese
+      contact_page: Contact Page
+      contact: Contact
+      contact_ruby_on_rails: Contact the Ruby on Rails Tutorial about the sample app at the
+    about:
+      about: About
+      en: English
+      vi: Vietnamese
+      ruby_on_rails_tutorial: The Ruby on Rails Tutorial
+      book: Book
+      web_development: to teach web development with
+      sample_application_for_the_tutorial: This is the sample application for the tutorial
+      and: and
+      is_a: is a
