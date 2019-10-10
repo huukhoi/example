@@ -50,4 +50,6 @@ vi:
       about: Thông tin
       contact: Liên hệ
       new: Tin tức
-
+  user:
+    new:
+      user_new: Người dùng mới

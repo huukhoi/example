@@ -49,3 +49,6 @@ en:
       about: About
       contact: Contact
       new: News
+  user:
+    new:
+      user_new: Users new
