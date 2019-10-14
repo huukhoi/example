@@ -49,6 +49,21 @@ en:
       about: About
       contact: Contact
       new: News
-  user:
+  users:
     new:
-      user_new: Users#new
+      en: English
+      vi: Vietnamese
+      sign_up: Sign up
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Confirmation
+      create_my_account: Create my account
+    create:
+      welcome: Welcome to the Sample App!
+      fail: Invalid information
+    notfound: User dosen't exist
+  error:
+    one: 1 error
+    other: "%{count} errors"
+  the_form_contains: The form contains

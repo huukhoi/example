@@ -11,3 +11,8 @@ michaelhartl: http://www.michaelhartl.com/
 en: en
 vi: vi
 cat: http://rubyonrails.org/
+max50: 50
+max255: 255
+min6: 6
+size: 80
+regex_mail: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
