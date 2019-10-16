@@ -1,4 +1,17 @@
 vi:
+  sessions:
+    vi: Tiếng Việt
+    wrong: Sai email hoặc mật khẩu
+    en: Tiếng Anh
+    lgin: Đăng nhập
+    new:
+      lgin: Đăng nhập
+      email: Email
+      en: Tiếng Anh
+      vi: Tiếng Việt
+      lgin: Đăng nhập
+      password: Mật khẩu
+      new_user: Tạo tài khoản mới?
   static_pages:
     home:
       en: Tiếng Anh
@@ -6,7 +19,7 @@ vi:
       ruby_on_rails_tutorial: Ứng dụng mẫu Ruby on Rails Tutorial
       sample_app: Ứng dụng mới
       tutorial: Đây là trang chủ của
-      sign_up_now: Đăng nhập ngay !
+      sign_up_now: Đăng ký !
     help:
       en: Tiếng Anh
       vi: Tiếng Việt
@@ -33,15 +46,20 @@ vi:
       is_a: là một
   layouts:
     application:
-      sample: Ứng dụng
+      page: Ứng dụng mẫu
       help: Trợ giúp
+      lgin: Đăng nhập
       home: Trang chủ
-      login: Đăng nhập
     header:
       home: Trang chủ
       help: Trợ giúp
-      log_in: Đăng nhập
-      sample: Ứng dụng
+      user: Người dùng
+      account: Tài khoản
+      lgout: Đăng xuất
+      settings: Cài đặt
+      profile: Hồ sơ
+      lgin: Đăng nhập
+      page: Ứng dụng mẫu
     footer:
       the:
       by: bởi
@@ -50,6 +68,34 @@ vi:
       about: Thông tin
       contact: Liên hệ
       new: Tin tức
-  user:
+  users:
     new:
-      user_new: Người dùng mới
+      en: Tiếng Anh
+      vi: Tiếng Việt
+      sign_up: Đăng ký
+      name: Họ và tên
+      email: Email
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+      create_my_account: Tạo tài khoản
+    create:
+      welcome: Chào mừng bạn đến với Ứng dụng mẫu!
+      fail: Thông tin không hợp lệ
+    notfound: Không tìm thấy người dùng này
+  activerecord:
+    errors:
+      models:
+        user:
+          attributes:
+            name:
+              blank: Không để trắng
+            email:
+              blank: Không để trắng
+              invalid: Đúng cú pháp
+            password:
+              blank: Không để trắng
+              too_short: Quá ngắn
+  error:
+    one: 1 lỗi
+    other: "%{count} lỗi"
+  the_form_contains: Biểu mẫu có chứa
