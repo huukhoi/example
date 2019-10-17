@@ -1,4 +1,18 @@
 en:
+  sessions:
+    wrong: Wrong email or password
+    lgin: Log in
+    en: English
+    vi: Vietnamese
+    new:
+      email: Email
+      password: Password
+      en: English
+      remember_me: Remember me on this computer
+      vi: Vietnamese
+      lgin: Log in
+      signup: Sign up now!
+      new_user: New user?
   static_pages:
     home:
       en: English
@@ -32,16 +46,21 @@ en:
       and: and
       is_a: is a
   layouts:
-    application:
-      sample: Sample App
-      help: Help
-      home: Home
-      login: Login
     header:
       home: Home
       help: Help
-      log_in: Login
-      sample: Sample App
+      user: Users
+      settings: Settings
+      lgout: Log out
+      profile: Profile
+      account: Account
+      lgin: Log in
+      page: Sample app
+    application:
+      page: Sample app
+      home: Home
+      help: Help
+      lgin: Log in
     footer:
       by: by
       the_ruby_on_rails_tutorial: The Ruby on Rails Tutorial
@@ -59,6 +78,9 @@ en:
       password: Password
       confirmation: Confirmation
       create_my_account: Create my account
+    show:
+      vi: Vietnamese
+      en: English
     create:
       welcome: Welcome to the Sample App!
       fail: Invalid information

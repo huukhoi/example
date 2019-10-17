@@ -1,4 +1,19 @@
 vi:
+  sessions:
+    vi: Tiếng Việt
+    wrong: Sai email hoặc mật khẩu
+    en: Tiếng Anh
+    lgin: Đăng nhập
+    new:
+      lgin: Đăng nhập
+      email: Email
+      en: Tiếng Anh
+      remember_me: Lưu email và mật khẩu trên máy tính này
+      vi: Tiếng Việt
+      lgin: Đăng nhập
+      signup: Đăng kí ngay!
+      password: Mật khẩu
+      new_user: Tạo tài khoản mới?
   static_pages:
     home:
       en: Tiếng Anh
@@ -33,15 +48,20 @@ vi:
       is_a: là một
   layouts:
     application:
-      sample: Ứng dụng
+      page: Ứng dụng mẫu
       help: Trợ giúp
+      lgin: Đăng nhập
       home: Trang chủ
-      login: Đăng nhập
     header:
       home: Trang chủ
       help: Trợ giúp
-      log_in: Đăng nhập
-      sample: Ứng dụng
+      user: Người dùng
+      account: Tài khoản
+      lgout: Đăng xuất
+      settings: Cài đặt
+      profile: Hồ sơ
+      lgin: Đăng nhập
+      page: Ứng dụng mẫu
     footer:
       the:
       by: bởi
@@ -60,6 +80,9 @@ vi:
       password: Mật khẩu
       confirmation: Xác nhận mật khẩu
       create_my_account: Tạo tài khoản
+    show:
+      en: Tiếng Anh
+      vi: Tiếng Việt
     create:
       welcome: Chào mừng bạn đến với Ứng dụng mẫu!
       fail: Thông tin không hợp lệ
