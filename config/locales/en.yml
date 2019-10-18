@@ -8,8 +8,10 @@ en:
       email: Email
       password: Password
       en: English
+      remember_me: Remember me on this computer
       vi: Vietnamese
       lgin: Log in
+      signup: Sign up now!
       new_user: New user?
   static_pages:
     home:
@@ -76,6 +78,9 @@ en:
       password: Password
       confirmation: Confirmation
       create_my_account: Create my account
+    show:
+      vi: Vietnamese
+      en: English
     create:
       welcome: Welcome to the Sample App!
       fail: Invalid information

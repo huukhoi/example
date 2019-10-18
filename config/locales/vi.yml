@@ -8,8 +8,10 @@ vi:
       lgin: Đăng nhập
       email: Email
       en: Tiếng Anh
+      remember_me: Lưu email và mật khẩu trên máy tính này
       vi: Tiếng Việt
       lgin: Đăng nhập
+      signup: Đăng kí ngay!
       password: Mật khẩu
       new_user: Tạo tài khoản mới?
   static_pages:
@@ -78,6 +80,9 @@ vi:
       password: Mật khẩu
       confirmation: Xác nhận mật khẩu
       create_my_account: Tạo tài khoản
+    show:
+      en: Tiếng Anh
+      vi: Tiếng Việt
     create:
       welcome: Chào mừng bạn đến với Ứng dụng mẫu!
       fail: Thông tin không hợp lệ
