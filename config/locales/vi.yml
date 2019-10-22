@@ -57,7 +57,7 @@ vi:
       help: Trợ giúp
       user: Người dùng
       account: Tài khoản
-      lgout: Đăng xuất
+      logout: Đăng xuất
       settings: Cài đặt
       profile: Hồ sơ
       lgin: Đăng nhập
@@ -80,6 +80,35 @@ vi:
       password: Mật khẩu
       confirmation: Xác nhận mật khẩu
       create_my_account: Tạo tài khoản
+    update:
+      profile: Hồ sơ cá nhân đã cập nhật
+      error: Lỗi
+    logged_in_user:
+      please: Vui lòng đăng nhập lại
+    notfound: Không tìm thấy người dùng này
+    edit:
+      edit_user: Chỉnh sửa người dùng
+      update: Cập nhật hồ sơ
+      name: Họ và tên
+      email: Email
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+      save_changes: Lưu thay đổi
+      change: Thay đổi
+    form:
+      name: Họ và tên
+      email: Email
+      password: Mật khẩu
+      confirmation: Xác nhận mật khẩu
+    index:
+      all_users: Tất cả người dùng
+      delete_success: Xóa người dùng thành công
+      delete_error: Xóa người dùng không thành công
+    user:
+      delete: Xóa
+      sure: Bạn chắc chắn?
+    destroy:
+      deleted: Xóa người dùng
     show:
       en: Tiếng Anh
       vi: Tiếng Việt

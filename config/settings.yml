@@ -14,5 +14,9 @@ cat: http://rubyonrails.org/
 max50: 50
 max255: 255
 min6: 6
+n25: 25
 size: 80
-regex_mail: !ruby/regexp /\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i
+s50: 50
+n1: 1
+regex_mail: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
+gravatar_emails: http://gravatar.com/emails
