@@ -51,7 +51,7 @@ en:
       help: Help
       user: Users
       settings: Settings
-      lgout: Log out
+      logout: Log out
       profile: Profile
       account: Account
       lgin: Log in
@@ -84,6 +84,35 @@ en:
     create:
       welcome: Welcome to the Sample App!
       fail: Invalid information
+    update:
+      profile: Profile updated
+      error: Error
+    logged_in_user:
+      please: Please log in.
+    notfound: User doesn't exist
+    edit:
+      edit_user: Edit user
+      update: Update your profile
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Confirmation
+      save_changes: Save changes
+      change: Change
+    form:
+      name: Name
+      email: Email
+      password: Password
+      confirmation: Confirmation
+    index:
+      all_users: All users
+      delete_success: Delete success
+      delete_error: Delete error
+    user:
+      delete: delete
+      sure: You sure?
+    destroy:
+      deleted: User deleted
     notfound: User doesn't exist
   error:
     one: 1 error
