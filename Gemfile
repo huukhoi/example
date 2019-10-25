@@ -4,7 +4,7 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.4.2", require: false
 gem "bootstrap-kaminari-views"
-gem "bootstrap-sass", "3.3.7"
+gem "bootstrap-sass", "3.4.1"
 gem "config"
 gem "faker", "2.1.2"
 gem "figaro"
