@@ -19,11 +19,11 @@ class UsersController < ApplicationController
   def create
     @user = User.new user_params
     if @user.save
-      log_in @user
-      flash[:success] = t "users.create.welcome"
+      @user.send_activation_email
+      flash[:info] = t "users.create.welcome"
       redirect_to @user
     else
-      flash.now[:danger] = t "users.create.fail"
+      flash.now[:warning] = t "users.create.fail"
       render :new
     end
   end
@@ -65,8 +65,8 @@ class UsersController < ApplicationController
   def logged_in_user
     return if logged_in?
 
-    flash[:danger] = "users.logged_in_user.please"
-    redirect_to logged_url
+    flash[:danger] = t "users.edit.login_request"
+    redirect_to login_url
   end
 
   def correct_user

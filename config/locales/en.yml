@@ -1,5 +1,18 @@
 en:
+  account_activations:
+    success: Activate successfull
+    fail: Activate fail
+  user_mailer:
+    account_acti: Account application
+    account_activation:
+      welcome: Welcome to the Sample app
+      click: Click on the link below to active your account
+      activate: Activate
+      hi: Hi
+      page: Sample app
   sessions:
+    invalid: Invalid email/password combination
+    not-check: Account not activated. Check your email for the activation link
     wrong: Wrong email or password
     lgin: Log in
     en: English
@@ -88,7 +101,7 @@ en:
       profile: Profile updated
       error: Error
     logged_in_user:
-      please: Please log in.
+      login_request: Please login
     notfound: User doesn't exist
     edit:
       edit_user: Edit user

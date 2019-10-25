@@ -1,5 +1,18 @@
 vi:
+  account_activations:
+    success: Kích hoạt thành công
+    fail: Kích hoạt thất bại
+  user_mailer:
+    account_acti: Kích hoạt tài khoản
+    account_activation:
+      welcome: Chào mừng đến với Ứng dụng mẫu
+      activate: Kích hoạt
+      hi: Xin chào
+      page: Ứng dụng mẫu
+      click: Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn
   sessions:
+    invalid: Email/mật khẩu không hợp lệ
+    not-check: Tài khoản chưa được kích hoạt. Kiểm tra email của bạn để biết liên kết kích hoạt
     vi: Tiếng Việt
     wrong: Sai email hoặc mật khẩu
     en: Tiếng Anh
@@ -58,7 +71,7 @@ vi:
       user: Người dùng
       account: Tài khoản
       logout: Đăng xuất
-      settings: Cài đặt
+      settings: Thiết lập
       profile: Hồ sơ
       lgin: Đăng nhập
       page: Ứng dụng mẫu
@@ -84,7 +97,7 @@ vi:
       profile: Hồ sơ cá nhân đã cập nhật
       error: Lỗi
     logged_in_user:
-      please: Vui lòng đăng nhập lại
+      login_request: Bạn phải đăng nhập
     notfound: Không tìm thấy người dùng này
     edit:
       edit_user: Chỉnh sửa người dùng
@@ -126,6 +139,7 @@ vi:
             email:
               blank: Không để trắng
               invalid: Đúng cú pháp
+              taken: Đã được sử dụng
             password:
               blank: Không để trắng
               too_short: Quá ngắn
