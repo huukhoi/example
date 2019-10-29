@@ -1,4 +1,9 @@
 vi:
+  password_reset_invalid: Đặt lại mật khẩu không hợp lệ
+  not_found_email: Vui lòng nhập mật khẩu
+  password_reset_expired: Đặt lại mật khẩu đã hết hạn
+  password_reset_message: Tin nhắn đặt lại mật khẩu
+  password_reset: Thay đổi mật khẩu
   account_activations:
     success: Kích hoạt thành công
     fail: Kích hoạt thất bại
@@ -18,6 +23,7 @@ vi:
     en: Tiếng Anh
     lgin: Đăng nhập
     new:
+      forgot_password: Quên mật khẩu
       lgin: Đăng nhập
       email: Email
       en: Tiếng Anh
@@ -27,6 +33,22 @@ vi:
       signup: Đăng kí ngay!
       password: Mật khẩu
       new_user: Tạo tài khoản mới?
+  password_resets:
+    update:
+      empty_password_error: "không để trống"
+      password_reset_done: "Thay đổi thành công"
+    new:
+      title: "Đặt lại mật khẩu"
+      submit_btn: "Gửi"
+      password_reset_email: "Email đã gửi để đặt lại mật khẩu"
+      email: Email
+    edit:
+      title: "Đặt lại mật khẩu"
+      password: "Mật khẩu"
+      password_confirm: "Nhập lại mật khẩu"
+      submit_btn: "Cập nhật mật khẩu"
+      empty_password_error: "Mật khẩu không được để trống"
+      password_reset_done: "Mật khẩu đã được cập nhật"
   static_pages:
     home:
       en: Tiếng Anh
@@ -134,6 +156,8 @@ vi:
       models:
         user:
           attributes:
+            password_confirmation:
+              confirmation: Xác nhận mật khẩu sai, vui lòng nhập lại!
             name:
               blank: Không để trắng
             email:

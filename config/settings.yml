@@ -18,5 +18,6 @@ n25: 25
 size: 80
 s50: 50
 n1: 1
+EXPIRED_TIME: 2
 regex_mail: !ruby/regexp '/\A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z/i'
 gravatar_emails: http://gravatar.com/emails
