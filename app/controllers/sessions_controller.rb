@@ -34,4 +34,15 @@ class SessionsController < ApplicationController
     flash.now[:danger] = t ".invalid"
     render :new
   end
+
+  def login_with_user_activated
+    log_in @user
+    @sessions[:remember_me] == Settings.TRUE ? remember(@user) : forget(@user)
+    redirect_back_or @user
+  end
+
+  def warn_user_not_activate
+    flash[:warning] = t ".account_not_activate_message"
+    redirect_to root_url
+  end
 end
